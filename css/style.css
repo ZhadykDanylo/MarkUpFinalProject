@@ -1,0 +1,1065 @@
+@font-face {
+  font-family: 'Abaya Libra Extrabold';
+  src: url('path-to-font-file.woff2') format('woff2');
+}
+
+.body1
+{
+  background-color: rgb(234,234,234);
+}
+
+.body2
+{
+  background-color: rgb(60, 64, 72);
+}
+
+.applyingFormButton
+{
+width: 55%;
+height: 82px;
+border-radius: 25px;
+font-size: 35px;
+color: white;
+background-color: black;
+border: none;
+font-family: 'Racing Sans One';
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+margin: 4% 0% 4% 2%;
+}
+
+.questionsButton
+{
+width: 35%;
+height: 82px;
+border-radius: 25px;
+font-size: 210%;
+color: white;
+background-color: black;
+border: none;
+font-family: 'Racing Sans One';
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+  margin: 4% 0% 4% 2%;
+}
+
+.sightsButton
+{
+width: 25%;
+height: 113px;
+font-size: 45px;
+color: rgb(4.7%,20.8%,41.6%);
+background-color: rgb(234,234,234);
+border: 6px solid rgb(4.7%,20.8%,41.6%);
+font-family: 'Racing Sans One', serif;
+box-shadow: 2px 2px 5px rgba(17, 8, 145, 0.591);
+margin: 0%;
+padding: 0%;
+border-style: double;
+}
+
+.sightsButton:hover 
+  {
+    box-shadow: 4px 4px 10px rgba(17, 8, 145, 0.591);
+  }
+
+.publicTransportButton
+{
+width: 50%;
+height: 113px;
+font-size: 40px;
+color: black;
+background-color: rgb(234,234,234);
+border: 6px solid black;
+font-family: 'Racing Sans One', serif;
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+margin: 0%;
+padding: 0%;
+}
+
+.beautifulPlacesButton
+{
+width: 50%;
+height: 113px;
+font-size: 40px;
+color: black;
+background-color: rgb(234,234,234);
+border: 6px solid black;
+font-family: 'Racing Sans One';
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+margin: 0%;
+padding: 7.5px;
+}
+
+.hotelsButton
+{
+  width: 25%;
+  height: 113px;
+  font-size: 45px;
+  color: rgb(67,83,52);
+  background-color: rgb(234,234,234);
+  border: 6px solid rgb(67,83,52);
+  font-family: 'Racing Sans One';
+  box-shadow: 2px 2px 5px rgba(7, 61, 27, 0.747);
+  margin: 0%;
+  border-style: double;
+  }
+
+  .hotelsButton:hover 
+  {
+    box-shadow: 4px 4px 10px rgba(7, 61, 27, 0.747);
+  }
+
+  .Amsterdam
+  {
+    border-radius: 100px;
+    width: 194px;
+    height: 189px;
+    color: white;
+    background-color: black;
+    border-color: white;
+    border: 10px solid white;
+    font-size: 50px;
+    font-family: 'Ingrid Darling';
+    box-shadow: 2px 2px 5px rgba(245, 0, 25, 0.8);
+    margin: 0% 0% 0% 0%;
+  }
+
+  .Amsterdam:hover 
+  {
+    box-shadow: 4px 4px 10px rgba(245, 0, 25, 0.8);
+  }
+  
+  button
+  {
+    cursor: pointer;
+  }
+
+  button:hover 
+  {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .phrase
+  {
+    font-family: 'Racing Sans One';
+    font-size: 32px;
+    white-space: pre-line;
+    margin: 2% 0% 3% 0%;
+  }
+
+  .Vincent
+  {
+    font-family: 'Ingrid Darling';
+    font-size: 50px;
+    margin: 2.7% 0% 0% 0%;
+  }
+
+  .article2 section h1,.article1 section h1
+  {
+    font-family: 'Abaya Libra Extrabold', serif;
+    font-size: 30px;
+    margin-bottom: 2.5%;
+  }
+
+  .article2 section p,.article1 section ul
+  {
+    font-family: 'Radley', serif;
+    font-size: 21px;
+  }
+
+  .article2,.article1
+  {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+  .article2 p, .article2 h1
+  {
+    margin: 1% 0.5% 0.5% 5%;
+    width: 90%;
+  }
+
+  .article1
+  {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+  .figure2 img
+  {
+    width: 40%;
+    height: 55%;
+    margin-bottom: 3%;
+  }
+
+  .figure1
+  {
+  width: 100%;
+  height: 50%;
+  margin: 0%;
+  }
+
+  .article0 {
+    display: flex;
+    width: 100%;
+    margin: 0%;
+  }
+  
+  .figure2 img {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .figure2 figcaption {
+    flex: 1;
+    max-width: 100%;
+  }
+  
+  .figure2 button {
+    flex: 1;
+    max-width: 100%;
+  }
+
+  .square
+  {
+    width: 96.5%;
+    height: 596px;
+  }
+
+  .bridge
+  {
+    width: 61%;
+    height: 218px;
+  }
+
+  .bikes
+  {
+    width: 35.3%;
+    height: 218px;
+  }
+
+  .flags
+  {
+    width: 61%;
+    height: 218px;
+  }
+  
+  .canal
+  {
+    width: 35.3%;
+    height: 218px;
+  }
+
+  .topPictures
+  {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+  }
+
+  .bottomPictures
+  {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+  }
+
+  .oneimage
+  {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    display: flex;
+  }
+
+  .figure1 img {
+    border: 1px solid black;
+  }
+
+  .navigationbuttons
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fourButtons
+  {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+  }
+
+  .fourbuttons
+  {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fourButtons button,.fourbuttons button
+  {
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    padding: 0%;
+  }
+
+  nav
+  {
+    width: 100%;
+    margin: 0%;
+  }
+
+.mainArticle
+{
+  width: 100%;
+}
+
+.header1
+{
+  display: flex;
+  width:100%;
+}
+
+.Copyright
+{
+  display: flex;
+  justify-content: center;
+  white-space: pre-line;
+  margin: 0%;
+  height: 3%;
+  font-family: 'Abaya Libra Extrabold', serif;
+    font-size: 20px;
+}
+
+.Information
+ {
+  white-space: pre-line;
+  font-family: 'Racing Sans One';
+  font-size: 40px;
+  display: flex;
+  margin: 0% 0% 0% 3%;
+  border: 7px solid black;
+  width: 55%;
+  justify-content: center;
+  align-items: center;
+ padding: 0% 2% 3.6% 2%;
+}
+
+.sectionInformation
+{
+  display: flex;
+  margin: 4% 0% 4% 0%;
+  justify-content: center;
+}
+
+.hotelarticle01
+{
+  display: flex;
+  width: 100%;
+  text-align: start;
+}
+
+.figure01
+{
+  width:100%;
+  height: 100%;
+  margin: 0%;
+}
+
+.Hotelimages
+{
+  width: 100%;
+  height: 100%;
+}
+
+.hotelarticle01 p
+{
+  font-family: 'Radley', serif;
+  font-size: 30px;
+  width: 100%;
+}
+
+.hotelarticle01 h1
+{
+  font-family: 'Racing Sans One';
+  font-size: 42px;
+  width: 100%;
+}
+
+.figuresection
+{
+  width: 100%;
+}
+
+.rightmargin p
+{
+  margin: 0% 3% 0% 3%;
+  width: 75%;
+}
+
+.rightmargin h1
+{
+  margin: 3% 3% 4% 3%;
+}
+
+.leftmargin p
+{
+  margin: 0% 3% 0% 3%;
+  width: 75%;
+}
+
+.leftmargin h1
+{
+  margin: 3% 3% 4% 3%;
+}
+
+.hotelsection1
+{
+  width: 100%;
+  color: rgb(7, 25, 82);
+  border: 1px solid rgb(7, 25, 82);
+}
+
+.hotelsection2
+{
+  width: 100%;
+  background-color: rgb(7, 25, 82);
+  color: rgb(234,234,234);
+  border: 1px solid rgb(234,234,234);
+}
+
+.hotelsection3
+{
+  width: 100%;
+  background-color: rgb(234,234,234);
+  color: rgb(229, 86, 4);
+  border: 1px solid rgb(229, 86, 4);
+}
+
+.hotelsection4
+{
+  width: 100%;
+  background-color: white;
+  color: rgb(186, 112, 79);
+  border: 1px solid rgb(186, 112, 79);
+}
+
+.arrowButton
+{
+  width: 5%;
+height: 5%;
+border-radius: 25px;
+font-size: 27px;
+color: white;
+background-color: black;
+border: none;
+font-family: 'Racing Sans One';
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+margin: 1.5% 0% 3% 1.5%;
+}
+
+
+.sightArticle01
+{
+  display: flex;
+  width:100%;
+  height: 100%;
+}
+
+.sightSection01
+{
+  width:50%;
+  margin:0%;
+}
+
+.sightFigure01
+{
+  width:107%;
+}
+
+.sightSection01 > h1
+{
+  width:50%;
+  margin: 10% 0% 0% 15%;
+  font-family: 'Katibeh';
+  font-size: 25px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+  display: block;
+}
+
+.sightSection01 > p
+{
+  width:50%;
+  margin: 5% 0% 0% 15%;
+  font-family: 'Katibeh';
+  font-size: 20px;
+}
+
+.arrowSights
+{
+  width: 5%;
+height: 5%;
+border-radius: 25px;
+font-size: 27px;
+color: white;
+background-color: black;
+border: none;
+font-family: 'Racing Sans One';
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+margin: 0% 0% 0% 3%;
+}
+
+
+.figurePlaces01
+{
+  width:100%;
+  margin: 0%;
+}
+
+.topfigure
+{
+  width:100%;
+  margin: 0%;
+}
+
+.publicArticle01
+{
+  width: 100%;
+  display: flex;
+}
+
+.publicSection01
+{
+  width:100%;
+  border: 2px solid white;
+}
+
+.publicImages01
+{
+  width:100%;
+  display: flex;
+  align-items: center;
+}
+
+.AmsterdamCentraal
+{
+  color: rgb(248, 240, 229);
+  margin: 5% 5% 5% 5%;
+  font-size: 22px;
+  font-family: 'Ledger';
+}
+
+.AmsterdamExcursions
+{
+  color: rgb(255, 196, 54);
+  margin: 5% 5% 5% 5%;
+  font-size: 22px;
+  font-family: 'Ledger';
+}
+
+.tram
+{
+color: rgb(168, 223, 142);
+  margin: 5% 5% 5% 5%;
+  font-size: 22px;
+  font-family: 'Ledger';
+}
+
+.bike
+{
+  color: rgb(142, 205, 221);
+  margin: 5% 5% 5% 5%;
+  font-size: 22px;
+  font-family: 'Ledger';
+}
+
+.map
+{
+  width: 100%;
+}
+
+.littleImages
+{
+  width:15%;
+  margin: 0%;
+}
+
+.publicFigure01, .littleBoatImagefigure
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.publicSection01 > p
+{
+  width: 75%;
+}
+
+.Copyright2
+{
+  display: flex;
+  justify-content: center;
+  white-space: pre-line;
+  margin: 0%;
+  height: 3%;
+  font-family: 'Abaya Libra Extrabold', serif;
+    font-size: 20px;
+    color: white;
+}
+
+.finalSection
+{
+  display: flex;
+  width: 100%;
+}
+
+.littleBoatImage
+{
+  width:7%;
+  margin: 0%;
+}
+
+.bottomArticle
+{
+  border: 2px solid white;
+  width:100%;
+}
+
+.finalSectionText p, .finalSectionText h1
+{
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+}
+
+.finalSectionText > p
+{
+  margin:1% 0% 2% 2.7%;
+  width: 80%;
+  font-size: 22px;
+  font-family: 'Ledger';
+  color: white;
+}
+
+.finalSectionText > h1
+{
+  font-size: 25px;
+  font-family: 'Ledger';
+  color: white;
+}
+
+
+
+.questionArticle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo
+{
+  width:66.5px;
+  height: 66.5px;
+}
+
+.mainLogo
+{
+  display: flex;
+  justify-content: center;
+}
+
+.mainLogoText
+{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'Ledger';
+}
+
+.row1,.row2,.row3,.row4
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.textBox
+{
+  width:100%;
+  height: 2.5em;
+  font-size: 22px;
+  border: 1px solid black;
+}
+
+.row1
+{
+margin: 5% 5% 5% 5%;
+}
+
+.row2
+{
+  margin: 3% 5% 3% 5%;
+}
+
+.row3
+{
+margin: 3% 19.5% 3% 5%;;
+}
+
+.row4
+{
+margin: 3% 5% 3% 19.5%;;
+}
+
+.Submit
+{
+  width: 15%;
+height: 42px;
+border-radius: 25px;
+font-size: 22px;
+color: white;
+background-color: black;
+border: none;
+font-family: 'Racing Sans One';
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+}
+
+.submit
+{
+  display: flex;
+  justify-content: center;
+  margin: 3% 0% 1.5% 0%;
+  height: 3%;
+  font-family: 'Abaya Libra Extrabold', serif;
+    font-size: 20px;
+}
+
+.arrowButtonApplyingForm
+{
+  width: 5%;
+  height: 5%;
+  border-radius: 25px;
+  font-size: 27px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: 'Racing Sans One';
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+  margin: 1.5% 0% 3% 12%;
+}
+
+.church
+{
+  width: 100%;
+  margin: 0%;
+}
+
+.figureChurch
+{
+width: 40%;
+margin: 1% 5% 2% 5%;
+}
+
+.amsterdamText
+{
+  font-family: 'Jost';
+  font-size: 28px;
+  width: 60%;
+}
+
+.amsterdamButtonFacts
+{
+  width: 315px;
+  height: 300px;
+  border-radius: 60%;
+  color: white;
+  background-color: black;
+  border-color: white;
+  border: 10px solid white;
+  font-size: 50px;
+  font-family: 'Ingrid Darling';
+  box-shadow: 2px 2px 5px rgba(245, 0, 25, 0.8);
+  margin: 0% 0% 0% 0%;
+}
+
+.form1
+{
+  display: flex;
+  width:100%;
+  flex-direction: column;
+}
+
+label {
+  font-size: 22px;
+  font-family: 'Inknut Antiqua';
+  margin: 2% 0% 0% 4%;
+}
+
+input[type="text1"],input[type="email"]
+{
+  width: 30%;
+  height: 2em;
+  font-size: 22px;
+  margin: 2% 0% 0% 4%;
+}
+
+input[type="text2"]
+{
+  width: 70%;
+  height: 12em;
+  vertical-align: top;
+  font-size: 22px;
+  margin: 2% 0% 0% 4%;
+}
+
+.send
+{
+  width: 12%;
+  height: 2.2em;
+  border-radius: 25px;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: 'Racing Sans One';
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+  margin: 2.5% 0% 0% 4%;
+}
+
+.send:hover 
+{
+  box-shadow: 4px 4px 10px black;
+  cursor: pointer;
+}
+
+.INFORMATION
+{
+  width:100%;
+  display:flex;
+}
+
+.halfsection
+{
+  width: 50%;
+  margin: 0% 0% 0% 2.5%;
+}
+
+.p2
+{
+  font-family: 'Katibeh';
+  font-size: 22px;
+  width:100%;
+  margin: 0%;
+}
+
+.p3
+{
+  font-family: 'Katibeh';
+  font-size: 25px;
+  width:37px;
+  border: 3px solid black ;
+  margin: 2% 0% 2% 0%;
+  position: static;
+}
+
+.important
+{
+  width: 85%;
+}
+
+.useful
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Racing Sans One';
+  font-size: 17px;
+  border: 3px solid black;
+  background-color: white;
+  width: auto;
+    padding: 0%;
+  border-radius: 10%;
+  margin: 0% 0% 4% 0%;
+}
+
+.peak
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Racing Sans One';
+  font-size: 17px;
+  border: 3px solid black;
+  background-color: white;
+  width: auto;
+    padding: 3.5% 0% 3.5% 0%;
+  border-radius: 10%;
+  margin: 0% 0% 2% 0%;
+}
+
+h2
+{
+  margin: 0%;
+}
+
+.NS
+{
+  padding:2% 15% 2% 15%;
+  border: 3px solid black;
+  margin: 0% 15% 2% 0%;
+}
+
+.buses
+{
+  border: 3px solid black;
+  margin: 0% 0% 2% 12%;
+  padding:2% 15% 2% 15%;
+}
+
+.important
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Racing Sans One';
+  font-size: 17px;
+  border: 3px solid black;
+  background-color: white;
+  width: auto;
+  border-radius: 10%;
+  margin: 5% 0% 2% 0%;
+}
+
+.studentemail
+{
+  display: flex;
+  justify-content: center;
+  padding:1%;
+  border: 3px solid black;
+}
+
+.Bottomsection
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 100%;
+}
+
+.sightArticle01 p::first-letter
+{
+  font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    margin-right: 5px; 
+}
+
+.section
+{
+  width:50%;
+}
+
+.return
+{
+width: 35%;
+height: 1.8em;
+border-radius: 15px;
+font-size: 25px;
+color: white;
+background-color: black;
+border: none;
+font-family: 'Racing Sans One';
+box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+margin: 4% 0% 4% 2%;
+}
+
+fieldset
+{
+  width:70%;
+  height: 44em;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  background-color: rgb(217, 217, 217);
+}
+
+legend
+{
+  font-size: 27px;
+  font-family: 'Racing Sans One';
+}
+
+a:hover
+{
+  color:red;
+}
+
+a:active {
+  color: green;
+  text-decoration: underline;
+}
+
+.arrowButtonApplyingForm
+{
+  width: 5%;
+  height: 5%;
+  border-radius: 25px;
+  font-size: 27px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: 'Racing Sans One';
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+  position: relative;
+  right: 1%;
+  top:1%;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(8, 2, 154, 0.729);
+  width: 100%;
+}
+
+tr:nth-child(odd) {
+  background-color: #9a0c0ce9;
+  width: 100%;
+}
+
+.float-left {
+  float: left;
+width: 3%;
+}
+
+.buttonfloat
+{
+  width: 150%;
+  height: 5%;
+  border-radius: 25px;
+  font-size: 27px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-family: 'Racing Sans One';
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.591);
+  margin-left: 10%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  white-space: pre-line;
+  margin: 0%;
+  height: 3%;
+  font-family: 'Abaya Libra Extrabold', serif;
+    font-size: 20px;
+    color: black;
+}
+
+.art
+{
+  display: flex;
+  justify-content: center;
+}
